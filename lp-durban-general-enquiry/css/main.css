@@ -1,0 +1,234 @@
+
+
+/* ==========================================================================
+Steven Jackson's custom styles
+========================================================================== */
+
+/*Globals*/
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+margin: 40px 0;
+}
+h2 {
+font-size: 68px;
+color: #fff;
+font-weight: 700;
+}
+
+h3 {
+margin: 40px 0;
+font-weight: 700;
+}
+h4 {
+font-size: 16px;
+}
+
+
+
+/*Row fix*/
+.row {margin: 0px;}
+
+/*Top*/
+#top {margin: 20px 0;}
+#top img {max-height: 50px;}
+.links {font-size: 18px; padding: 0px;}
+
+.links i {padding-right:5px;}
+.social-media i {
+padding: 0px;
+font-size: 25px;
+color: #000;
+}
+
+
+/*Banner*/
+#banner {
+background-image: url("../img/banner.png"); 
+min-height: 600px;
+background-size: cover;
+}
+.banner-content {
+margin-top: 5%;
+}
+
+.banner-content span {
+color: #fff;
+font-size: 22px;
+font-weight: 400;
+
+}
+
+/*Form*/
+.input-group {
+    width: 100%;
+}
+
+.banner-form-wrapper {
+min-height: 600px;
+background-color: #000;
+opacity: 0.7;
+color: #fff;
+padding: 20px 30px;
+}
+
+.banner-form-wrapper p  {
+font-size: 28px;
+font-weight: 700;
+line-height: 1;
+}
+.banner-form-wrapper span {
+font-size: 20px;
+font-weight: 400;
+}
+
+hr {width: 50%;}
+
+input {margin-bottom: 20px !important;}
+input[type="submit"] {
+margin-top: 20px;
+font-size: 24px;
+background-color: #df202b;
+border: 0px;
+padding: 10px 10px;
+width: 100%;
+
+}
+
+input[name=address] {
+  display: none;
+}
+
+/*Study*/
+
+
+#study img {
+max-height: 90px;
+margin: 0 auto;
+}
+
+#study hr {
+  display: none;
+}
+
+
+/*Testimonial*/
+
+.testimonial-content-wrapper {
+padding: 40px 0;
+}
+
+#testimonial {
+color: #fff;
+background-image: url("../img/testimonials-bg.png"); 
+min-height: 240px;
+background-size: cover;
+}
+
+#testimonial span {
+font-size: 24px;
+color: #df202b;
+font-weight: 700;
+
+}
+
+#testimonial p{
+margin: 10px 0;
+}
+
+#testimonial i {
+font-size: 20px;
+color: #df202b;
+padding: 0 5px;
+}
+
+
+/*Courses*/
+section#courses {
+margin: 60px 0;
+}
+
+
+#courses img {
+max-height: 150px;
+margin: 0 auto; 
+
+}
+
+#courses .box {
+border: 2px solid #d5d5d5;
+padding: 20px 10px;
+min-height: 310px;
+}
+
+#courses p {
+min-height: 55px;
+margin: 0px;
+}
+
+#courses a {
+border-radius: 5px; 
+background-color: #df202b;
+font-size: 12px;
+color: #fff;
+padding: 5px 10px;
+}
+
+
+/*Pre Footer*/
+
+section#pre-footer {
+background-color: #df202b;
+color: #fff;
+padding: 40px 0;
+margin: 0px;
+}
+
+#pre-footer h3 {
+margin: 0px;
+margin-bottom: 10px;
+}
+
+#pre-footer ul{
+list-style-position: inside;
+font-size: 16px;
+}
+
+
+/*Footer*/
+footer {
+padding: 20px 0;
+background-color: #262424;
+color: #fff;
+}
+
+
+/*Media Queries*/
+@media (max-width: 991px) {
+    .logo{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .links img {padding-left:20px;}
+    .contact-wrapper {
+        float: right !important;
+      padding-right: 2%;
+    }
+  .social-media {
+      float: right !important;
+      padding-right: 20%;
+  }
+  .banner-content {
+      text-align: center;
+      padding-bottom: 40px; 
+  }
+  
+  .form-control {
+
+width: 100% !important;
+
+}
+
+#study hr {width: 1000%; display: inherit;}
+}

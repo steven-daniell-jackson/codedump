@@ -1,0 +1,188 @@
+@font-face {
+    font-family: CRILLEE;
+    src: url(../webfonts/CRILLEE.TTF);
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+/*.mySlides {
+    display: none;
+}*/
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade:not(.show) {
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+body {font-family: Arial, Helvetica, sans-serif; font-size:  26px; color: #373737}
+header {padding-top: 3rem;}
+section {padding-top: 2rem;}
+.container {padding-bottom: 0rem;}
+p {}
+strong {}
+section h2{padding: 1.5rem 0;color: #1a2632;font-weight: 700;font-size: 1.9rem; text-transform: uppercase; } 
+div.slider-wrapper {padding: 0}
+
+form h2 {font-weight: 700; font-size: 1.8rem;margin-bottom: 1.3rem;}
+form span {font-size: 14px;margin:0.5rem;}
+.form-group:nth-child(5){margin-bottom:0;}
+.form-group{margin-bottom:0.5rem;}
+
+div.form-wrapper {background-color: #e9e9e9; padding: 2rem;}
+.form-wrapper strong {  font-size: 1rem;}
+.form-control {border-radius: 0rem;  padding: 3px 10px}
+
+footer {background-color: #1a2632; color: #fff; padding: 1.5rem 0; margin-top: 4rem;}
+footer p{margin:0; font-size: 0.8rem; font-size:1.2rem;}
+
+
+.btn-primary {
+  background-color: #df2130;
+  border-color: #df2130;
+  padding: 0.8rem;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.btn-primary:hover {
+  background-color: #a53039;
+  border-color: #df2130;
+  padding: 0.8rem;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.form-group:nth-child(6){display: none;}
+
+.risks-heading {background-color: #e51f2c; padding: 0.6rem 0; font-family: CRILLEE;}
+.risks-lead {background-color: #363636; padding: 1rem; }
+.risks-heading h2 {font-size: 1.6rem; color: #fff; padding: 0;font-size: 2rem;}
+.risks-lead p {font-size: 1.6rem; color: #fff}
+.contact-row {
+background-image: url('../img/background.png');
+background-color: #cccccc;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 8rem 8rem;
+margin-top: 4rem;
+}
+
+.contact-row strong{color: #df2130; text-transform: uppercase; }
+.icon-row {padding: 3rem 0;}
+.icon-row p{padding: 1rem 0;}
+i {padding: 0rem 0.1rem;}
+
+.commercial-lead p{font-weight: 700; font-size: 1.8rem;}
+.commercial-lead span{color: #e51f2c}
+
+.commercial-lease h2 {
+    overflow: hidden;
+    text-align: center;
+     font-family: CRILLEE;
+      font-weight: 700;
+      font-style: italic;
+}
+.commercial-lease h2:before,
+.commercial-lease h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.commercial-lease h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.commercial-lease h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.commercial-deposit h2 {
+    overflow: hidden;
+    text-align: center;
+     font-family: CRILLEE;
+     font-weight: 700;
+      font-style: italic;
+}
+.commercial-deposit h2:before,
+.commercial-deposit h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.commercial-deposit h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.commercial-deposit h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.commercial-deposit a {border: 1px solid #454545; padding: 1rem 1rem; color: #454545; border-radius: 0.5rem; text-transform: uppercase; font-size:1rem;}
+.commercial-lease a {border: 1px solid #454545; padding: 1rem 1rem; color: #454545; border-radius: 0.5rem; text-transform: uppercase; font-size:1rem;}
+
+.spacer {padding: 4rem 0;}
+
+.copyright { font-size: 0.9rem;}
+
+
+ul {
+    list-style-image: url('../img/tick.png');
+}
+ul li{ font-size:1rem; }
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1280px;
+}
+}
+
+
+/*Thank you Page*/
+
+.thank-you h1 {font-size: 1.7rem; text-transform: uppercase; padding: 1rem 0; font-weight: 700;}
+.thank-you p {font-size: 1.4rem; text-transform: uppercase; padding: 1rem 0 2rem 0; font-weight: 700;}
+.thank-you a {font-size: 1rem; text-transform: uppercase; padding: 1rem 2rem; font-weight: 700; background-color: #df2230; color: #fff;}
+ header.thank-you-header{padding-top: 1rem;}
